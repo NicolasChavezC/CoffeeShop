@@ -179,6 +179,21 @@ Talk</string>
       </item>
       <item>
        <widget class="QLabel" name="label">
+        <property name="minimumSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(&quot;img/Is_this_it.webp&quot;)</string>
+        </property>
         <property name="text">
          <string>IMAGE</string>
         </property>
@@ -205,9 +220,9 @@ Talk</string>
          <property name="geometry">
           <rect>
            <x>0</x>
-           <y>0</y>
-           <width>1071</width>
-           <height>546</height>
+           <y>-160</y>
+           <width>1059</width>
+           <height>654</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -247,15 +262,23 @@ Talk</string>
             <layout class="QHBoxLayout" name="horizontalLayout_2">
              <item>
               <widget class="QLabel" name="label_16">
+               <property name="styleSheet">
+                <string notr="true">border-image: url(&quot;img/Gala_Had.webp&quot;)</string>
+               </property>
                <property name="text">
-                <string>image</string>
+                <string/>
                </property>
               </widget>
              </item>
              <item>
               <widget class="QLabel" name="label_15">
+               <property name="font">
+                <font>
+                 <family>Century Gothic</family>
+                </font>
+               </property>
                <property name="text">
-                <string>TextLabel</string>
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Gala Had&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Ginger Chai Latte, good to calm yet warm your nerve&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                </property>
               </widget>
              </item>
