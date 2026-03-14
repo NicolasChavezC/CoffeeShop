@@ -139,7 +139,7 @@ Talk</string>
        </spacer>
       </item>
       <item>
-       <widget class="QPushButton" name="btn_cff_Report_Menu">
+       <widget class="QPushButton" name="btn_cff_Report_Main">
         <property name="minimumSize">
          <size>
           <width>100</width>
@@ -243,7 +243,7 @@ Talk</string>
          <property name="geometry">
           <rect>
            <x>0</x>
-           <y>-401</y>
+           <y>0</y>
            <width>1074</width>
            <height>1966</height>
           </rect>
