@@ -46,8 +46,8 @@ class AppManager:
         self.coffee_report = coffee_report()
         self.coffee_login.show()
         self.coffee_login.login_successful.connect(self.show_main_window)
-        self.coffee_main.move_main_to_menu.connect(self.menu_to_main)
-        self.coffee_main.move_main_to_report.connect(self.menu_to_report)
+        self.coffee_main.move_main_to_menu.connect(self.main_to_menu)
+        self.coffee_main.move_main_to_report.connect(self.main_to_report)
         self.coffee_menu.move_menu_to_main.connect(self.menu_to_main)
         self.coffee_menu.move_menu_to_report.connect(self.menu_to_report)
         self.coffee_report.move_report_to_main.connect(self.report_to_main)
@@ -55,9 +55,15 @@ class AppManager:
     def show_main_window(self):
         self.coffee_main.show()
         self.coffee_login.close()
-    def menu_to_main(self):
+    def main_to_menu(self):
         self.coffee_menu.show()
         self.coffee_main.close()
+    def main_to_report(self):
+        self.coffee_report.show()
+        self.coffee_menu.close()
+    def menu_to_main(self):
+        self.coffee_main.show()
+        self.coffee_menu.close()
     def menu_to_report(self):
         self.coffee_report.show()
         self.coffee_menu.close()
