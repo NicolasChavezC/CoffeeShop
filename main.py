@@ -60,7 +60,7 @@ class AppManager:
         self.coffee_main.close()
     def main_to_report(self):
         self.coffee_report.show()
-        self.coffee_menu.close()
+        self.coffee_main.close()
     def menu_to_main(self):
         self.coffee_main.show()
         self.coffee_menu.close()
