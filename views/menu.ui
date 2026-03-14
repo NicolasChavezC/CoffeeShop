@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(205,175,123);</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <item>
     <widget class="QFrame" name="frame_3">
@@ -27,6 +30,9 @@
        <width>16777215</width>
        <height>125</height>
       </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(239, 114, 112);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::StyledPanel</enum>
@@ -48,6 +54,9 @@
           <family>Lucida Calligraphy</family>
           <pointsize>12</pointsize>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(238,159,128);</string>
         </property>
         <property name="text">
          <string>Coffee 
@@ -81,6 +90,9 @@ Talk</string>
           <bold>true</bold>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(238,159,128);</string>
+        </property>
         <property name="text">
          <string>Menu</string>
         </property>
@@ -112,6 +124,9 @@ Talk</string>
           <bold>true</bold>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(238,159,128);</string>
+        </property>
         <property name="text">
          <string>Place Order</string>
         </property>
@@ -142,6 +157,9 @@ Talk</string>
           <weight>75</weight>
           <bold>true</bold>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(238,159,128);</string>
         </property>
         <property name="text">
          <string>Cart</string>
@@ -195,7 +213,7 @@ Talk</string>
          <string notr="true">border-image: url(&quot;img/Is_this_it.webp&quot;)</string>
         </property>
         <property name="text">
-         <string>IMAGE</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -220,22 +238,12 @@ Talk</string>
          <property name="geometry">
           <rect>
            <x>0</x>
-           <y>-160</y>
-           <width>1059</width>
-           <height>654</height>
+           <y>-442</y>
+           <width>1071</width>
+           <height>949</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_2">
-          <item>
-           <widget class="QLabel" name="label_8">
-            <property name="styleSheet">
-             <string notr="true">border-image: url(&quot;img/banner.avif&quot;)</string>
-            </property>
-            <property name="text">
-             <string>image</string>
-            </property>
-           </widget>
-          </item>
           <item>
            <widget class="QLabel" name="label_10">
             <property name="font">
@@ -247,7 +255,7 @@ Talk</string>
              </font>
             </property>
             <property name="text">
-             <string>Day's Special</string>
+             <string>Menu</string>
             </property>
            </widget>
           </item>
@@ -262,6 +270,18 @@ Talk</string>
             <layout class="QHBoxLayout" name="horizontalLayout_2">
              <item>
               <widget class="QLabel" name="label_16">
+               <property name="minimumSize">
+                <size>
+                 <width>125</width>
+                 <height>125</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>125</width>
+                 <height>125</height>
+                </size>
+               </property>
                <property name="styleSheet">
                 <string notr="true">border-image: url(&quot;img/Gala_Had.webp&quot;)</string>
                </property>
@@ -284,6 +304,18 @@ Talk</string>
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_10">
+               <property name="minimumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
                <property name="text">
                 <string>PushButton</string>
                </property>
@@ -337,6 +369,18 @@ Talk</string>
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_5">
+               <property name="minimumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
                <property name="text">
                 <string>PushButton</string>
                </property>
@@ -356,6 +400,18 @@ Talk</string>
             <layout class="QHBoxLayout" name="horizontalLayout_7">
              <item>
               <widget class="QLabel" name="label_13">
+               <property name="minimumSize">
+                <size>
+                 <width>125</width>
+                 <height>125</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>125</width>
+                 <height>125</height>
+                </size>
+               </property>
                <property name="styleSheet">
                 <string notr="true">border-image: url(&quot;img/Gingerbread_Coffee.webp&quot;)</string>
                </property>
@@ -384,6 +440,18 @@ Talk</string>
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_9">
+               <property name="minimumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
                <property name="text">
                 <string>PushButton</string>
                </property>
@@ -403,8 +471,20 @@ Talk</string>
             <layout class="QHBoxLayout" name="horizontalLayout_6">
              <item>
               <widget class="QLabel" name="label_11">
+               <property name="minimumSize">
+                <size>
+                 <width>125</width>
+                 <height>125</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>125</width>
+                 <height>125</height>
+                </size>
+               </property>
                <property name="styleSheet">
-                <string notr="true">border-image: url(&quot;img/SMTJ.webp&quot;)</string>
+                <string notr="true">border-image: url(&quot;img/STMJ.webp&quot;)</string>
                </property>
                <property name="text">
                 <string/>
@@ -428,6 +508,18 @@ Talk</string>
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_8">
+               <property name="minimumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
                <property name="text">
                 <string>PushButton</string>
                </property>
@@ -447,6 +539,18 @@ Talk</string>
             <layout class="QHBoxLayout" name="horizontalLayout_4">
              <item>
               <widget class="QLabel" name="label_5">
+               <property name="minimumSize">
+                <size>
+                 <width>125</width>
+                 <height>125</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>125</width>
+                 <height>125</height>
+                </size>
+               </property>
                <property name="styleSheet">
                 <string notr="true">border-image: url(&quot;img/Sugar_and_Spice.webp&quot;)</string>
                </property>
@@ -469,6 +573,18 @@ Talk</string>
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_6">
+               <property name="minimumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
                <property name="text">
                 <string>PushButton</string>
                </property>
@@ -488,6 +604,18 @@ Talk</string>
             <layout class="QHBoxLayout" name="horizontalLayout_5">
              <item>
               <widget class="QLabel" name="label_3">
+               <property name="minimumSize">
+                <size>
+                 <width>125</width>
+                 <height>125</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>125</width>
+                 <height>125</height>
+                </size>
+               </property>
                <property name="styleSheet">
                 <string notr="true">border-image: url(&quot;img/Milky_Way.webp&quot;)</string>
                </property>
@@ -510,6 +638,18 @@ Talk</string>
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_7">
+               <property name="minimumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>75</width>
+                 <height>75</height>
+                </size>
+               </property>
                <property name="text">
                 <string>PushButton</string>
                </property>

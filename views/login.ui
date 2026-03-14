@@ -109,7 +109,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit"/>
+           <widget class="QLineEdit" name="txt_user"/>
           </item>
           <item>
            <spacer name="verticalSpacer_3">
@@ -144,7 +144,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_2">
+           <widget class="QLineEdit" name="txt_pass">
             <property name="echoMode">
              <enum>QLineEdit::Password</enum>
             </property>
@@ -167,7 +167,7 @@
            </spacer>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton">
+           <widget class="QPushButton" name="btn_cff_login">
             <property name="font">
              <font>
               <family>Century Gothic</family>
