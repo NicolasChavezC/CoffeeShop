@@ -36,6 +36,7 @@ class coffee_report(QtWidgets.QDialog):
     def __init__(self):
         super().__init__()
         uic.loadUi("./views/report.ui", self)
+        self.controller = Report(self, self)
 
 class AppManager:
     def __init__(self):

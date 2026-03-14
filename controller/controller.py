@@ -8,7 +8,7 @@ class LoginController:
     def handle_login(self):
         username = self.window.txt_user.text()
         password = self.window.txt_pass.text()
-        if username == "asd" and password == "asd":
+        if username == "Milk" and password == "Sugar":
             self.window.login_successful.emit()
         else:
             QtWidgets.QMessageBox.warning(self.window, "Coffee Talk - ERROR","Login keys incorrect")
